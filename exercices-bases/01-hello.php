@@ -27,3 +27,4 @@ function newHelloWorld(string $name) : string
 }
 
 echo newHelloWorld('Kévin');
+echo newHelloWorld('');
