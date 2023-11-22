@@ -1,5 +1,8 @@
 <?php
 
+// Fini : 3.A, 3.B, 3.C, 3.D 
+// Reste : 
+
 function getMC2() : string
 {
     return 'Albert Einstein';
@@ -26,4 +29,4 @@ function askUser(string $firstName, string $lastName) : string
     return 'Bonjour ' . getFullName($firstName, $lastName) . ', connaissez-vous ' . getMC2() . ' ?';
 }
 
-echo askUser('Kévin', 'Roussotte');
+//echo askUser('Kévin', 'Roussotte');

@@ -1,5 +1,8 @@
 <?php
 
+// Fini : 4.A, 4.B, 4.C, 4.D 
+// Reste : 
+
 function isMajor(int $age) : bool
 {
     if($age >= 18){
@@ -39,14 +42,6 @@ function getRetired(int $age) : string
 //echo getRetired(60);
 //echo getRetired(72);
 //echo getRetired(-2);
-
-
-
-
-
-
-
-
 
 function getMax(float $nb1, float $nb2, float $nb3) : float
 {

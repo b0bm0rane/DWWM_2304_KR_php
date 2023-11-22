@@ -1,5 +1,8 @@
 <?php
 
+// Fini : 2.A, 2.B, 2.C, 2.D 
+// Reste : 
+
 function getSum(int $nb1, int $nb2) : int
 {
     return $nb1 + $nb2;
