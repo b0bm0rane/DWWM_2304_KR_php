@@ -1,7 +1,7 @@
 <?php
 
-// Fini : 5.A 
-// Reste : 5.B 
+// Fini : 5.A, 5.B
+// Reste : 
 
 function getToday() : string
 {
@@ -17,12 +17,14 @@ function getTimeLeft(string $date) : string
     $date = DateTime::createFromFormat("Y-m-d", $date);
     // $date = $date->format("Y-m-d");
     // var_export($date);
-    $dateAuj = new DateTime();
-    $interval = date_diff($dateAuj, $date); $dateAuj->diff($date);
-    $interval = $dateAuj->diff($date);
     
-    if($date==true){
+    
+    if($date != false){
 
+        $dateAuj = new DateTime();
+        $interval = date_diff($dateAuj, $date); $dateAuj->diff($date);
+        $interval = $dateAuj->diff($date);
+        
         if($date > $dateAuj){
             return 'Dans ' . $interval->format('%R%a jours = %Y ans %m mois %d jours <br> ');
         }

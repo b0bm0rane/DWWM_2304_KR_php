@@ -30,19 +30,31 @@ function passwordCheck(string $mdp) : bool
     }
 }
 
-echo var_dump(passwordCheck("kevin"));
-echo var_dump(passwordCheck("kevin1"));
-echo var_dump(passwordCheck("KEVIN"));
-echo var_dump(passwordCheck("KEVIN1"));
-echo var_dump(passwordCheck("Kevin"));
-echo var_dump(passwordCheck("Kevin1"));
-echo var_dump(passwordCheck("roussotte"));
-echo var_dump(passwordCheck("roussotte1"));
-echo var_dump(passwordCheck("ROUSSOTTE"));
-echo var_dump(passwordCheck("ROUSSOTTE1"));
-echo var_dump(passwordCheck("Roussotte"));
-echo var_dump(passwordCheck("Roussotte1"));
-echo var_dump(passwordCheck("Rous sot te1 "));
+// echo var_dump(passwordCheck("kevin"));
+// echo var_dump(passwordCheck("kevin1"));
+// echo var_dump(passwordCheck("KEVIN"));
+// echo var_dump(passwordCheck("KEVIN1"));
+// echo var_dump(passwordCheck("Kevin"));
+// echo var_dump(passwordCheck("Kevin1"));
+// echo var_dump(passwordCheck("roussotte"));
+// echo var_dump(passwordCheck("roussotte1"));
+// echo var_dump(passwordCheck("ROUSSOTTE"));
+// echo var_dump(passwordCheck("ROUSSOTTE1"));
+// echo var_dump(passwordCheck("Roussotte"));
+// echo var_dump(passwordCheck("Roussotte1"));
+// echo var_dump(passwordCheck("Rous sot te1 "));
+
+
+
+
+
+
+
+
+
+
+
+
 
 $users = [
     "joe" => "Azer1234!",
@@ -50,14 +62,19 @@ $users = [
     "admin" => "1234_Azer"
 ];
 
-function userLogin($username, $password)
+function userLogin(string $username, string $password, array $arrayUsers) : bool
 {
-    global $users;
+    global $users; // global car extérieur
+
     if(array_key_exists($username, $users)) {
-        $myPassword = $users[$username]
+        $myPassword = $users[$username];
+    }
+
+    else{
+        return false;
     }
 }
 
-echo userLogin('joe', "kljkljsdlkfj");
+echo userLogin('joe', "kljkljsdlkfj", $users);
 
 // echo var_dump($users);
