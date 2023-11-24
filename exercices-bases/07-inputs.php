@@ -1,7 +1,7 @@
 <?php
 
-// Fini : 7.A, 7.B 
-// Reste : 7.C 
+// Fini : 7.A, 7.B, 7.C 
+// Reste : 
 
 function stringLength(string $mdp) : bool 
 {
@@ -44,18 +44,6 @@ function passwordCheck(string $mdp) : bool
 // echo var_dump(passwordCheck("Roussotte1"));
 // echo var_dump(passwordCheck("Rous sot te1 "));
 
-
-
-
-
-
-
-
-
-
-
-
-
 $users = [
     "joe" => "Azer1234!",
     "jack" => "Azer-1234",
@@ -66,8 +54,8 @@ function userLogin(string $username, string $password, array $arrayUsers) : bool
 {
     global $users; // global car extérieur
 
-    if(array_key_exists($username, $users)) {
-        $myPassword = $users[$username];
+    if(array_key_exists($username, $arrayUsers) && passwordCheck($password) && $password == $arrayUsers[$username]) {
+        return true;
     }
 
     else{
@@ -75,6 +63,33 @@ function userLogin(string $username, string $password, array $arrayUsers) : bool
     }
 }
 
-echo userLogin('joe', "kljkljsdlkfj", $users);
+$id_renseigner = "joe";
+$mdp_renseigner = "Azer1234!";
+
+echo var_dump(userLogin($id_renseigner, $mdp_renseigner, $users));
 
 // echo var_dump($users);
+
+
+
+
+// <?php 
+// $users = [
+//     'joe' => 'Azer1234!', 
+//     'jack' => 'Azer-4321', 
+//     'admin' => '1234_Azer',
+// ];
+
+// $nomDutilisateur = "joe";
+// $motDePasseAtester = "Azer1234!";
+
+// // si le tableau d'utilisateurs contient "$nomDutilisateur"
+// if(array_key_exists($nomDutilisateur, $users)) {
+//     $utilisateur = $users[$nomDutilisateur];
+// }
+
+// if(array_key_exists("joe", $users)
+// {
+//     $users["joe"]
+
+// var_export($users["joe"]);
