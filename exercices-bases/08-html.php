@@ -1,34 +1,37 @@
 <?php
-
-// Fini : 
-// Reste : 8.A 
-
-$names = ["Joe", "Jack", "Léa", "Zoé", "Néo"];
-
-function htmlList(string $nameList, array $arrayList)
-{
-    if(!empty($arrayList)){
-        sort($arrayList);
-
-    }
-
-    else{
-        return "Aucun résultat";
-    }
+ 
+$names = ['Joe', 'Jack', 'Léa', 'Zoé', 'Néo' ];
+ 
+function  htmlList(string $nameList , array $liste ) {
+ 
+$resultat = "";
+ 
+if ( count($liste) > 0 ) {
+ 
+$resultat = '<h3>'.$nameList.'</h3><ul>';
+ 
+for ( $i = 0; $i < count($liste)-1; $i++) {
+ 
+    $resultat.= '<li>'.$liste[$i].'</li>';
 }
-
+ 
+$resultat .= '</ul>';
+}
+else
+{
+    $resultat = "<p>Aucun résultat</p>";
+}
+ 
+return $resultat;
+ 
+ 
+ 
+}
+ 
+ 
+$names2 = [];
+ 
+echo " test 1 ".htmlList("Liste des personnes", $names );
+echo "\n test 2 ".htmlList("Liste des personnes", $names2 );
+ 
 ?>
-
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 8.A</title>
-</head>
-<body>
-    
-</body>
-</html>
