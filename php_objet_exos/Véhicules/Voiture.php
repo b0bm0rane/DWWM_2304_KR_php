@@ -16,7 +16,7 @@ class Voiture
         $this->model = $model;
         $this->weight = $weight;
         $this->motor = $motor;
-        $this->maxSpeed = $this->getmaxSpeed();
+        $this->maxSpeed = $this->getMaxSpeed();
     }
 
     public function getBrand() : string
@@ -34,7 +34,7 @@ class Voiture
         return $this->weight;
     }
 
-    public function getmaxSpeed() : int
+    public function getMaxSpeed() : float
     {
         $this->maxSpeed = $this->motor->maxSpeed - ($this->weight * 8 / 100);
         return $this->maxSpeed;
@@ -45,38 +45,41 @@ class Voiture
         return $this->motor->brand;
     }
 
-    public function getMotormaxSpeed() : int
+    public function getMotorMaxSpeed() : float
     {
         return $this->motor->maxSpeed;
     }
+
 }
 
-$peugeot = new Voiture("Peugeot", "SUV 5008", 1500, new Moteur("Renault", 300));
+$peugeotSUV = new Voiture("Peugeot", "SUV 5008", 1500, new Moteur("Renault", 300));
 
-echo "Voiture : ";
+echo "Voiture : 5008";
 echo"<br>";
 
-echo $peugeot->getBrand();
+echo $peugeotSUV->getBrand();
 echo"<br>";
 
-echo $peugeot->getModel();
+echo $peugeotSUV->getModel();
 echo"<br>";
 
-echo $peugeot->getWeight() . " kg";
+echo $peugeotSUV->getWeight() . " kg";
 echo"<br>";
 
-echo $peugeot->getmaxSpeed() . " KmH";
+echo $peugeotSUV->getmaxSpeed() . " KmH";
 echo"<br>";
 echo"<br>";
 
 echo "Moteur : ";
 echo "<br>";
 
-echo $peugeot->getMotorBrand();
+echo $peugeotSUV->getMotorBrand();
 echo"<br>";
 
-echo $peugeot->getMotormaxSpeed() . " KmH";
+echo $peugeotSUV->getMotormaxSpeed() . " KmH";
 echo"<br>";
 echo"<br>";
 
-var_dump($peugeot);
+var_dump($peugeotSUV);
+echo"<br>";
+echo"<br>";

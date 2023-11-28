@@ -3,9 +3,9 @@
 class Moteur
 {
     public string $brand;
-    public int $maxSpeed;
+    public float $maxSpeed;
 
-    public function __construct(string $brand, $maxSpeed)
+    public function __construct(string $brand, float $maxSpeed)
     {
         $this->brand = $brand;
         $this->maxSpeed = $maxSpeed;
@@ -16,7 +16,7 @@ class Moteur
         return $this->brand;
     }
 
-    public function getmaxSpeed() : int
+    public function getMaxSpeed() : float
     {
         return $this->maxSpeed;
     }
