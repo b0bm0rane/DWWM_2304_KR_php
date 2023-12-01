@@ -38,3 +38,5 @@ echo "<br>";
 echo $kevin->getBirthday();
 echo "<br>";
 var_dump($kevin);
+echo "<br>";
+echo "<br>";
