@@ -28,7 +28,7 @@ class Connexion
                     self::$user,
                     self::$pass,
                     array(
-                        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_NUM,
+                        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
                         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
                     )
                 );

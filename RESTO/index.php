@@ -14,6 +14,17 @@
 
     $maTable = new MyTable("restaurants");
 
+
+    if(isset ($_POST["suppr"]) && !empty($_POST["suppr"])){
+        $test = $maTable->deleteTable($_POST["suppr"]);
+        if($test==1){
+            echo "Ligne supprimée";
+        }
+        else{
+            echo "Échec de la suppression";
+        }
+    }
+
     $mesDonnees = $maTable->readTable();
     $myData = $maTable->rendreHTML();
     echo $myData;
