@@ -43,6 +43,7 @@
     echo $state2->rowCount();
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     $id2 = 2;
     $nouv2 = "Dresseur test";
 
@@ -52,7 +53,11 @@
 
     echo $state3->rowCount();
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // $maRequete4 = "INSERT INTO db_pokemon.dresseur (dresseur_id, dresseur_nom) VALUES ('10', 'BobMorane')";
+    // $state4->exec($maRequete4);
     ?>
-    
+
 </body>
 </html>
