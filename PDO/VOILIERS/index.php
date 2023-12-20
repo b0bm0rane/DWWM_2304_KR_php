@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Location de voilier</title>
 </head>
 <body>
@@ -56,17 +57,23 @@
 
     ?>
 
-    <form action="index.php" method="POST" enctype="multipart/form-data">
-        
-        <label for="email">email</label>
-        <input type="email" name="log" id="email">
-        
-        <label for="pass">Mot de passe</label>
-        <input type="password" name="pass" id="pass">
+    <h1>ACCES MEMBRE</h1>
 
-        <button type="submit">Valider</button>
+    
+            <form action="index.php" method="POST" enctype="multipart/form-data">
+                <label for="email" id="email">email</label>
+                <br>
+                <input type="email" name="log">
+                <br>
+                <label for="pass" id="pass">Mot de passe</label>
+                <br>
+                <input type="password" name="pass">
+                <br>
+                <div> <button id="ok" type="submit">Valider</button></div>
+               
+            </form>
 
-    </form>
+    
 
 </body>
 </html>

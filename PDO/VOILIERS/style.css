@@ -1,0 +1,29 @@
+body{
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
+
+input{
+    align-items: center;
+}
+
+div{
+    display: inline-flex;
+    
+}
+#ok{
+    justify-content : flex-end;
+}

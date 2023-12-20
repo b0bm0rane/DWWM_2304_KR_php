@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    background-color: #EEEDED;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#tab {
+    background-repeat: repeat-y;
+}
+
+table .colonne {
+    text-align: right;
+}
+
+#page {
+    position: relative;
+    background-color: #FFF;
+    height: 100%;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+
+#header {
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 980px;
+}
+
+#nav {
+    float: left;
+    width: 15%;
+    height: 380px;
+    padding: 10px;
+}
+
+#section {
+    float: right;
+    width: 80%;
+}
+
+footer {
+    text-align: center;
+    width: 980px;
+    padding: 0px 20px;
+    height: auto;
+    background-color: #EEEDED;
+}
+
+div#menu {
+    list-style-type: none;
+    position: relative;
+    left: 0px;
+    border-bottom: 1px solid #5F6076;
+    border-top: 1px solid #5F6076;
+    border-left: 0px;
+    border-right: 1px solid #5F6076;
+    width: 980px;
+    background-color: #EEE;
+    margin-top: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 0.8em;
+    z-index: 10;
+    float: left;
+}
+
+#menu a {
+    display: block;
+    background-color: #EEE;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: #364670;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #D9D9D9;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    display: inline;
+}
+
+#menu ul li:first-child {
+    border-left: 1px solid #5F6076;
+}
+
+#menu ul li {
+    position: relative;
+    border-right: 1px solid #5F6076;
+    float: left;
+    list-style-type: none;
+}
+
+#menu ul li:hover {
+    background-color: #D9D9D9;
+}
+
+#menu ul li ul {
+    left: -41px;
+    margin: 0;
+    position: absolute;
+    width: 135px;
+    display: none;
+}
+
+#menu ul li:hover ul {
+    display: block;
+}
+
+#menu ul li:hover ul li ul {
+    display: none;
+}
+
+#menu ul li ul:hover li {
+    display: block;
+}
+
+#menu ul li ul li:first-child {
+    border-top: 1px solid #5F6076;
+}
+
+#menu ul li ul li {
+    width: 100%;
+    border-left: 1px solid #5F6076;
+    border-bottom: 1px solid #5F6076;
+    border-right: 1px solid #5F6076;
+}
+
+#menu ul li ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 95px;
+}
+
+#menu ul li ul li ul {
+    float: right;
+    display: none;
+}
+
+#entreprise {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 10px
+}
+
+.impair {
+    background-color: #D5FFD5;
+}
+
+.pair {
+    background-color: #FFFFFF;
+}
