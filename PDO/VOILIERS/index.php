@@ -45,35 +45,82 @@
         return $trouveOk;
     }
 
-    if(isset($_POST["log"], $_POST["pass"]) && !empty($_POST["log"]) && !empty($_POST["pass"])){
-        $verifOk = loginVoilier($_POST["log"], $_POST["pass"]);
-        if($verifOk){
-            header('Location:http://localhost/dwwm2304/PDO/VOILIERS/liste.php');
-        }
+    // if(isset($_POST["log"], $_POST["pass"]) && !empty($_POST["log"]) && !empty($_POST["pass"])){
+    //     $verifOk = loginVoilier($_POST["log"], $_POST["pass"]);
+    //     if($verifOk){
+            
+    //         echo "<a href='./liste.php' target='_blank'>Lien accès membre</a>";
+
+    //         //header('Location:http://localhost/dwwm2304/PDO/VOILIERS/liste.php');
+    //     }
+    // }
+    // else{
+    //     echo "remplissez tous les champs";
+    // }
+
+    /*if(session existe){
+
     }
     else{
-        echo "remplissez tous les champs";
-    }
+
+    }*/
 
     ?>
-
-    <h1>ACCES MEMBRE</h1>
-
-    
             <form action="index.php" method="POST" enctype="multipart/form-data">
-                <label for="email" id="email">email</label>
-                <br>
-                <input type="email" name="log">
-                <br>
-                <label for="pass" id="pass">Mot de passe</label>
-                <br>
-                <input type="password" name="pass">
-                <br>
-                <div> <button id="ok" type="submit">Valider</button></div>
-               
+                
+                <fieldset>
+                    <legend>ACCES MEMBRES</legend>
+                    <br>
+                    <label for="email" id="email">email</label>
+                    <br>
+                    <input type="email" name="log">
+                    <br>
+                    <br>
+                    <label for="pass" id="pass">Mot de passe</label>
+                    <br>
+                    <input type="password" name="pass">
+                    <br>
+                    <br>
+                    <div>
+                    <?php
+
+                    $verifOk = false;
+                    if(isset($_POST["login"], $_POST["log"], $_POST["pass"]) && !empty($_POST["log"]) && !empty($_POST["pass"])){
+                        $verifOk = loginVoilier($_POST["log"], $_POST["pass"]);
+                    }
+                    if ($verifOk){
+                        
+                        echo "<button id='deconnexion' type='submit'>Déconnecter</button>";
+                    }
+                    else{
+                        
+                        echo "<button id='ok' type='submit' name='login'>Valider</button>";
+                    }
+                    ?>                    
+
+                    </div>
+
+                </fieldset>
+
             </form>
+    <?php
 
+        
+        
+        if($verifOk){
+
+            echo "<br>";
+            echo "<a href='./liste.php' target='_blank'>Lien accès membre</a>";
+                
+            //header('Location:http://localhost/dwwm2304/PDO/VOILIERS/liste.php');
+        }
+        else{
+
+            echo "<br>";
+            echo "Remplissez tous les champs";
     
+        }
 
+?>
 </body>
 </html>
