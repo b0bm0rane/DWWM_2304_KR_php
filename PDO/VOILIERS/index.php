@@ -12,6 +12,8 @@
 
     session_start();
 
+    // session_destroy();
+
     include "./models/Connexion.php";
 
     function loginVoilier(string $_log, string $_pass) : bool
@@ -88,9 +90,14 @@
                     if(isset($_POST["login"], $_POST["log"], $_POST["pass"]) && !empty($_POST["log"]) && !empty($_POST["pass"])){
                         $verifOk = loginVoilier($_POST["log"], $_POST["pass"]);
                     }
+                    else{
+
+                        session_destroy();
+                    
+                    }
                     if ($verifOk){
                         
-                        echo "<button id='deconnexion' type='submit'>Déconnecter</button>";
+                        echo "<button id='deconnexion' type='submit' name='logout' >Déconnecter</button>";
                     }
                     else{
                         
