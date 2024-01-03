@@ -196,3 +196,8 @@ INSERT INTO `departements` (`id_dep`, `Name`, `dep_actif`, `dep_taux`) VALUES
 --
 ALTER TABLE `departements`
   ADD PRIMARY KEY (`id_dep`);
+
+ALTER TABLE institutions 
+	ADD CONSTRAINT fk_dept 
+		FOREIGN KEY (depart) 
+			REFERENCES departements(id_dep);
