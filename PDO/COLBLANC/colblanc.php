@@ -64,7 +64,7 @@
         <form name="selection" action="<?php echo $_SERVER["PHP_SELF"] ?>" method="$_POST" enctype="multipart/form-data">
           <label for="depSelect">Choisissez votre département : </label>
           <select name="depSelect" id="depSelect">
-            <option value="0">Choix du département</option>
+            <option value="">Choix du département</option>
             <?php
 
               include "./models/Connexion.php";
@@ -96,25 +96,29 @@
         <div>
 
           <br>
-          <input type="checkbox" name="choix[]" id="tpe">
+          <input type="checkbox" name="choix[]" id="tpe" value="TPE">
           <label for="tpe">TPE</label>
           <br>
-          <input type="checkbox" name="choix[]" id="pme">
+          <input type="checkbox" name="choix[]" id="pme" value="PME">
           <label for="pme">PME</label>
           <br>
-          <input type="checkbox" name="choix[]" id="ge">
+          <input type="checkbox" name="choix[]" id="ge" value="GE">
           <label for="ge">GRANDE ENTREPRISE</label>
           <br>
-          <input type="checkbox" name="choix[]" id="ct">
+          <input type="checkbox" name="choix[]" id="ct" value="CT">
           <label for="ct">COLLECTIVITE TER</label>
           <br>
-          <input type="checkbox" name="choix[]" id="asso">
+          <input type="checkbox" name="choix[]" id="asso" value="ASSO">
           <label for="asso">ASSOCIATION</label>
           <br>
-          <input type="checkbox" name="choix[]" id="autres">
+          <input type="checkbox" name="choix[]" id="autres" value="AUTRES">
           <label for="autres">AUTRES(secteur public)</label>
 
         </div>
+
+        <?php
+        var_export($_POST);
+        ?>
 
         <br>
 
@@ -132,6 +136,22 @@
     <?php
 
       // var_dump($_POST["choix"]);
+
+      // var_dump($_POST);
+
+      $maConnexion2 = Connexion::getInstance();
+      $rq2 = "SELECT nom_etab, type_etab, nom_resp, adresse, ville, cp, telephone, email FROM db_col_blanc.institutions WHERE depart = :departement";
+      $state2 = $maConnexion2->prepare($rq2);
+      $state2->bindParam(":departement", $_POST["depSelect"], PDO::PARAM_INT);
+      $state2->execute();
+      $data = [];
+      $nb = 0;
+      while ($obj = $state2->fetch()){
+        $nb++;
+        array_push($data, $obj);
+      }
+
+      var_dump($data);
 
     ?>
 
