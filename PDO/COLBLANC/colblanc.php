@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Entrainement Centre de Readaptation</title>
   <link rel="stylesheet" media="screen" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -123,8 +124,6 @@
           <button type="print">Imprimer</button>
           <button type="submit">Valider</button>
 
-
-
         </form>
         
         <br>
@@ -137,7 +136,7 @@
 
     <?php
 
-    var_export($_POST);
+    // var_export($_POST);
     // var_export($_POST["choix"]);
 
     if (isset($_POST["depSelect"]) && !empty($_POST["depSelect"])) {
@@ -146,20 +145,39 @@
 
       $maConnexion = Connexion::getInstance();
       
-      $rq2 = "SELECT nom_etab, type_etab, nom_resp, adresse, ville, cp, telephone, email FROM db_col_blanc.institutions WHERE depart=:departement";
+      $rq2 = "SELECT nom_etab, type_etab, nom_resp, adresse, ville, cp, telephone, email FROM db_col_blanc.institutions WHERE depart=:departement AND type_etab IN ('GE')";
       $state2 = $maConnexion->prepare($rq2);
       $state2->bindParam(":departement", $_POST["depSelect"], PDO::PARAM_STR);
       $state2->execute();
       $data = [];
       $nb = 0;
+
+      echo "<caption> Résultats </caption><table class='table table-striped table-hover'>";
+      echo "<thead> <tr>  
+                      <th> Nom de l'établissement </th> 
+                      <th> Type d'établissement </th> 
+                      <th> Nom du responsable </th> 
+                      <th> Adresse </th> 
+                      <th> Code postal </th> 
+                      <th> Ville </th> 
+                      <th> Téléphone </th> 
+                      <th> Mail </th> 
+            </tr> </thead>";
+
       while ($obj = $state2->fetch()) {
+        echo "<tr>";
         $nb++;
         array_push($data, $obj);
+        foreach ($obj as $key => $value){
+          echo '<td>' .$obj->$key. '</td>';
+        }
       }
-      var_export($data);
+      // var_export($data);
       } else {
         echo "Veuillez choisir un département";
       }
+
+      echo "</tbody></table>";
 
     ?>
 
@@ -168,5 +186,8 @@
     </footer>
   </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </html>
