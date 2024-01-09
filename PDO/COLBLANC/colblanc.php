@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Fr">
+<html lang="fr-fr">
 
 <head>
   <meta charset="utf-8">
@@ -78,7 +78,7 @@
 
             while ($obj = $state->fetch()) {
               if (isset($_POST["depSelect"]) && !empty($_POST["depSelect"]) && $obj->id_dep == $_POST["depSelect"]) {
-                echo '<option value=""' . $obj->id_dep . '"selected="true">' . $obj->name . '</option>';
+                echo '<option value="'. $obj->id_dep .'" selected="true" >' . $obj->name . '</option>';
               } else {
                 echo '<option value="' . $obj->id_dep . '">' . $obj->name . '</option>';
               }
@@ -97,22 +97,76 @@
             <div>
 
               <br>
-              <input type="checkbox" name="choix[]" id="tpe" value="TPE">
+              <input type="checkbox" name="choix[]" id="tpe" value="TPE"
+              <?php
+              if (isset($_POST["choix"])) {
+
+                foreach ($_POST["choix"] as $key =>  $value) {
+                  if ($value == "TPE") {
+                   echo "checked='true'";
+                  }
+                }
+              } ?> >
               <label for="tpe">TPE</label>
               <br>
-              <input type="checkbox" name="choix[]" id="pme" value="PME">
+              <input type="checkbox" name="choix[]" id="pme" value="PME"
+              <?php
+              if (isset($_POST["choix"])) {
+
+                foreach ($_POST["choix"] as $key =>  $value) {
+                  if ($value == "PME") {
+                    echo "checked='true'";
+                  }
+                }
+              } ?> >
               <label for="pme">PME</label>
               <br>
-              <input type="checkbox" name="choix[]" id="ge" value="GE">
+              <input type="checkbox" name="choix[]" id="ge" value="GE"
+              <?php
+              if (isset($_POST["choix"])) {
+
+                foreach ($_POST["choix"] as $key =>  $value) {
+                  if ($value == "GE") {
+                   echo "checked='true'";
+                  }
+                }
+              } ?> >
               <label for="ge">GRANDE ENTREPRISE</label>
               <br>
-              <input type="checkbox" name="choix[]" id="ct" value="CT">
+              <input type="checkbox" name="choix[]" id="ct" value="CT"
+              <?php
+              if (isset($_POST["choix"])) {
+
+                foreach ($_POST["choix"] as $key =>  $value) {
+                  if ($value == "CT") {
+                    echo "checked='true'";
+                  }
+                }
+              } ?> >
               <label for="ct">COLLECTIVITE TER</label>
               <br>
-              <input type="checkbox" name="choix[]" id="asso" value="ASSO">
+              <input type="checkbox" name="choix[]" id="asso" value="ASSOC"
+              <?php
+              if (isset($_POST["choix"])) {
+
+                foreach ($_POST["choix"] as $key =>  $value) {
+                  if ($value == "ASSOC") {
+                    echo "checked='true'";
+                  }
+                }
+              } ?> >
               <label for="asso">ASSOCIATION</label>
               <br>
-              <input type="checkbox" name="choix[]" id="autres" value="AUTRES">
+              <input type="checkbox" name="choix[]" id="autres" value="AUTRES"
+              <?php
+              if (isset($_POST["choix"])) {
+
+                foreach ($_POST["choix"] as $key =>  $value) {
+                  if ($value == "AUTRES") {
+                    echo "checked='true'";
+                  }
+                }
+              } ?> >
               <label for="autres">AUTRES(secteur public)</label>
 
             </div>
@@ -121,8 +175,8 @@
 
           <br>
 
-          <button type="print">Imprimer</button>
-          <button type="submit">Valider</button>
+          <button type="print" id="print">Imprimer</button>
+          <button type="submit" id="submit">Valider</button>
 
         </form>
         
@@ -143,16 +197,35 @@
 
       // echo $_POST["depSelect"];
 
+      $finrq = "";
+
+      if (isset($_POST["choix"]) && count($_POST["choix"]) > 0){
+        $liste = "";
+
+        // var_dump($_POST["choix"]);
+
+        for ($i=0; $i < count($_POST["choix"]); $i++) { 
+          $liste.=", '".$_POST["choix"]["$i"]."'";
+        }
+        $liste=substr($liste,1);
+
+        // echo $liste;
+
+        $finrq = "AND type_etab IN(".$liste.")";
+      }
+
+
+
       $maConnexion = Connexion::getInstance();
       
-      $rq2 = "SELECT nom_etab, type_etab, nom_resp, adresse, ville, cp, telephone, email FROM db_col_blanc.institutions WHERE depart=:departement AND type_etab IN ('GE')";
+      $rq2 = "SELECT nom_etab, type_etab, nom_resp, adresse, ville, cp, telephone, email FROM db_col_blanc.institutions WHERE depart=:departement " . $finrq;
       $state2 = $maConnexion->prepare($rq2);
       $state2->bindParam(":departement", $_POST["depSelect"], PDO::PARAM_STR);
       $state2->execute();
       $data = [];
       $nb = 0;
 
-      echo "<caption> Résultats </caption><table class='table table-striped table-hover'>";
+      echo "<caption> Résultats : </caption><table class='table table-striped table-hover'>";
       echo "<thead> <tr>  
                       <th> Nom de l'établissement </th> 
                       <th> Type d'établissement </th> 
@@ -173,6 +246,9 @@
         }
       }
       // var_export($data);
+
+      echo $nb;
+
       } else {
         echo "Veuillez choisir un département";
       }
