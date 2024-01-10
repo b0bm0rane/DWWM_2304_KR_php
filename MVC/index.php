@@ -9,7 +9,7 @@ if (isset($_GET['action']) && $_GET['action'] !== '') {
             $identifier = $_GET['id'];
 
             post($identifier);
-        } else if ($_GET["action"] == 'adcomment') {
+        } else if ($_GET["action"] == 'addcomment') {
 
             if (isset($_GET['id']) && $_GET['id'] > 0) {
 

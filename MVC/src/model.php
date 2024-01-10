@@ -71,3 +71,19 @@ function dbConnect()
         die('Erreur : ' . $e->getMessage());
     }
 }
+
+function createComment($_id, $_author, $_comment): int
+{
+
+    $pdo = dbConnect();
+    $rq = "INSERT INTO comments VALUES(id , ? ,? ,? ,now())";
+    $state = $pdo->prepare($rq);
+    $state->execute(
+        [
+            $_id, $_author, $_comment
+        ]
+    );
+    $nb = $state->rowCount();
+
+    return $nb;
+}

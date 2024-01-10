@@ -1,0 +1,10 @@
+{
+    "name": "kroussotte/mvc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
