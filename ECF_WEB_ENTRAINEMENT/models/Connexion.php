@@ -8,7 +8,7 @@ class Connexion
     private static $host = 'localhost';
     private static $user = 'root';
     private static $pass = '';
-    private static $base = "db_name";
+    private static $base = "db_ecf_web";
 
     private function __construct()
     {
