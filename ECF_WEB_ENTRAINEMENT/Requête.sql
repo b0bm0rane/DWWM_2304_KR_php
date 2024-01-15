@@ -17,12 +17,12 @@ CREATE TABLE IF NOT EXISTS candidats (
 
 CREATE TABLE if NOT EXISTS `departements` (
  `id_dep` int(122) UNSIGNED NOT NULL PRIMARY KEY,
- `Name` varchar(50) NOT NULL,
+ `nom_dep` varchar(50) NOT NULL,
  `dep_actif` int(10) UNSIGNED NOT NULL,
  `dep_taux` decimal(5,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Departements';
 
-INSERT INTO `departements` (`id_dep`, `Name`, `dep_actif`, `dep_taux`) VALUES
+INSERT INTO `departements` (`id_dep`, `nom_dep`, `dep_actif`, `dep_taux`) VALUES
 (1, '01 - Ain', 1, 1.00),
 (2, '02 - Aisne', 1, 1.00),
 (3, '03 - Allier', 1, 1.00),

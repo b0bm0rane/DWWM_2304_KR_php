@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(./img/pokedex.jpg);
+}
+
+div, form{
+    text-align: center;
+}
+
+#logo{
+    width: 500px;
+
+}
+
+label{
+    color: white;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+input{
+    height: 25px;
+    width: 200px;
+}

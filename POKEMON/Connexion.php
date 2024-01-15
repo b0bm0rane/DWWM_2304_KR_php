@@ -3,12 +3,11 @@
 class Connexion
 {
 
-
     private static $connection = null;
     private static $host = 'localhost';
     private static $user = 'root';
     private static $pass = '';
-    private static $base = "db_ecf_web";
+    private static $base = "db_new_pokemon";
 
     private function __construct()
     {

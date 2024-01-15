@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+input{
+    height: 40px;
+    width: 200px;
+    text-align: left;
+}
+
+#valider{
+    width: 75px;
+    text-align: center;
+    color: white;
+    background-color: chocolate;
+}
+
+#avatar{
+    width: 350px;
+}

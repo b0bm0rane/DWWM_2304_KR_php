@@ -3,12 +3,11 @@
 class Connexion
 {
 
-
     private static $connection = null;
     private static $host = 'localhost';
     private static $user = 'root';
     private static $pass = '';
-    private static $base = "db_name";
+    private static $base = "db_ecf_web";
 
     private function __construct()
     {
@@ -21,14 +20,13 @@ class Connexion
 
             try {
                 self::$connection = new PDO(
-                    'mysql:host=' . self::$host . ';dbname=' . self::$base,
+                    'mysql:host=' . self::$host . ';dbname=' . self::$base . ";charset=utf8",
                     self::$user,
                     self::$pass,
                     array(
                         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                         PDO::ATTR_CASE => PDO::CASE_LOWER,
-                        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
-                        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+                        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
                     )
                 );
             } catch (PDOException $e) {
