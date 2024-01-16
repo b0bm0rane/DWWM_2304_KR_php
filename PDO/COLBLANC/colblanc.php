@@ -242,7 +242,7 @@
         $nb++;
         array_push($data, $obj);
         foreach ($obj as $key => $value){
-          echo '<td>' .$obj->$key. '</td>';
+          echo '<td>' . $obj->$key . '</td>';
         }
       }
       // var_export($data);
