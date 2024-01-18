@@ -48,3 +48,10 @@ td{
 caption{
     color: white;
 }
+
+#liste{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
