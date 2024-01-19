@@ -142,6 +142,7 @@
             echo "<tr>";
             $nb++;
             array_push($data, $obj);
+            
             foreach ($obj as $key => $value) {
                 echo '<td>' . $obj->$key . '</td>';
             }
@@ -150,13 +151,8 @@
         echo "       </tbody>
                         </table>";
 
-
         ?>
     </section>
-
-
-
-
 
 </body>
 
