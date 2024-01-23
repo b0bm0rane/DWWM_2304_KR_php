@@ -14,10 +14,6 @@
 <body>
     <?php
 
-
-
-    //  require_once "Connexion.php"
-
     require_once "Connexion.php";
     if (isset($_POST) && !empty($_POST["numero"])) {
 
@@ -34,19 +30,11 @@
         $state->execute();
         if ($state->rowcount() > 0) {
 
-            // unset($_POST);
-            // header("refresh");
             header("Location: pokemon.php");
         }
     } else {
         echo "<p>1er affichage du formulaire</p>";
     }
-
-
-
-
-
-
 
     ?>
 
@@ -105,17 +93,15 @@
 
             while ($ligne = $state->fetch(PDO::FETCH_ASSOC)) {
 
-                //  echo '<option value="' . $ligne['numero'] . '">' . $ligne['espece'] . $ligne['niveau'] . $ligne['type_1'] . $ligne['type_2'] . '</option>';
-
                 echo '<option value="'  . '">' . $ligne['numero'] . ' - ' . $ligne['espece'] . ' - ' . $ligne['niveau'] . ' - ' . $ligne['type_1'] . ' - ' . $ligne['type_2'] . '</option>';
             }
+
             ?>
        </select>
     </section>
 
     <section>
         <?php
-        //require_once "Connexion.php";
 
         $monPDO = Connexion::getinstance();
         $rq = "SELECT numero, espece, niveau, type_1, type_2 FROM pokemon";
@@ -125,7 +111,7 @@
         $nb = 0;
 
         echo "<h3>Mes pokémon</h3>";
-        // echo "<caption> Mes pokémon : </caption><table class='table table-striped table-hover'>";
+
         echo "  <table> 
                             <thead> 
                                 <tr> 
@@ -156,7 +142,7 @@
 
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
 
 </html>

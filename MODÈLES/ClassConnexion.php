@@ -7,7 +7,7 @@ class Connexion
     private static $host = 'localhost';
     private static $user = 'root';
     private static $pass = '';
-    private static $base = "db_ecf_web";
+    private static $base = "db_name";
 
     private function __construct()
     {
@@ -20,7 +20,7 @@ class Connexion
 
             try {
                 self::$connection = new PDO(
-                    'mysql:host=' . self::$host . ';dbname=' . self::$base . ";charset=utf8",
+                    'mysql:host=' . self::$host . ';db_name=' . self::$base . ";charset=utf8",
                     self::$user,
                     self::$pass,
                     array(
