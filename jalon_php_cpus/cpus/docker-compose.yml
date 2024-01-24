@@ -1,0 +1,47 @@
+version: '3.7'
+name: mdevoldere-lamp
+services: 
+  db:
+    image: mariadb:11
+    container_name: mdevoldere-db-mysql
+    restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./backups:/backups
+    environment:
+      MYSQL_DATABASE: test
+      MYSQL_USER: user 
+      MYSQL_PASSWORD: user
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'no'
+      MYSQL_ROOT_PASSWORD: root
+
+  web:
+    image: "php:8.2-apache"
+    container_name: mdevoldere-lamp-apache2
+    restart: always
+    depends_on: ['db']
+    ports: ['80:80']
+    links: ['db:db']
+    volumes:
+      - './www:/var/www/html'
+    environment:
+      MYSQL_DB_HOST: db
+      MYSQL_DATABASE: test
+      MYSQL_USER: user 
+      MYSQL_PASSWORD: user
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.2
+    container_name: mdevoldere-lamp-phpmyadmin
+    restart: always
+    depends_on: ['db']
+    ports: ['1200:80']
+    links: ['db:db']
+    environment:
+      - MYSQL_DB_HOST=db
+      - MYSQL_USER=user 
+      - MYSQL_PASSWORD=user
+
+
+volumes:
+  db_data: {}

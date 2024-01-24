@@ -10,6 +10,12 @@ div, form{
     text-align: center;
 }
 
+form {
+    background: #00000044;
+    width: 600px;
+    margin: auto;
+}
+
 #logo{
     width: 500px;
 

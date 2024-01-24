@@ -81,6 +81,9 @@
     <section>
         <h3>Mes pokémon</h3>
 
+
+        <!-- LISTE DÉROULANTE  -->
+            
             <select name="liste" id="liste">
             <option value="">numero - espece - niveau - type1 - type2</option>
             <?php
@@ -103,6 +106,8 @@
     <section>
         <?php
 
+        // TABLEAU
+        
         $monPDO = Connexion::getinstance();
         $rq = "SELECT numero, espece, niveau, type_1, type_2 FROM pokemon";
         $state = $monPDO->prepare($rq);
