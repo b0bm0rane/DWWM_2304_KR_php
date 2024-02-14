@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "codePostalVille": "75000",
+        "nomVille": "Paris",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 2,
+        "codePostalVille": "59000",
+        "nomVille": "Lille",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 3,
+        "codePostalVille": "68100",
+        "nomVille": "Mulhouse",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 4,
+        "codePostalVille": "31000",
+        "nomVille": "Toulouse",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 5,
+        "codePostalVille": "69000",
+        "nomVille": "Lyon",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 6,
+        "codePostalVille": "13000",
+        "nomVille": "Marseille",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 7,
+        "codePostalVille": "67000",
+        "nomVille": "Strasbourg",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 8,
+        "codePostalVille": "34000",
+        "nomVille": "Montpellier",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 9,
+        "codePostalVille": "44000",
+        "nomVille": "Nantes",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 10,
+        "codePostalVille": "29200",
+        "nomVille": "Brest",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 11,
+        "codePostalVille": "45000",
+        "nomVille": "Orléans",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 12,
+        "codePostalVille": "51100",
+        "nomVille": "Reims",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 13,
+        "codePostalVille": "83000",
+        "nomVille": "Toulon",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 14,
+        "codePostalVille": "06100",
+        "nomVille": "Nice",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 15,
+        "codePostalVille": "33800",
+        "nomVille": "Bordeaux",
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "id": 51,
+        "codePostalVille": "1000",
+        "nomVille": "Bruxelles",
+        "codePays": "BE",
+        "nomPays": "Belgium"
+    },
+    {
+        "id": 52,
+        "codePostalVille": "5004",
+        "nomVille": "Namur",
+        "codePays": "BE",
+        "nomPays": "Belgium"
+    },
+    {
+        "id": 53,
+        "codePostalVille": "8200",
+        "nomVille": "Brugges",
+        "codePays": "BE",
+        "nomPays": "Belgium"
+    },
+    {
+        "id": 100,
+        "codePostalVille": "90001",
+        "nomVille": "Los Angeles",
+        "codePays": "US",
+        "nomPays": "United States"
+    },
+    {
+        "id": 101,
+        "codePostalVille": "20001",
+        "nomVille": "Washington",
+        "codePays": "US",
+        "nomPays": "United States"
+    },
+    {
+        "id": 102,
+        "codePostalVille": "10001",
+        "nomVille": "New-York",
+        "codePays": "US",
+        "nomPays": "United States"
+    },
+    {
+        "id": 103,
+        "codePostalVille": "02110",
+        "nomVille": "Boston",
+        "codePays": "US",
+        "nomPays": "United States"
+    },
+    {
+        "id": 110,
+        "codePostalVille": "102301",
+        "nomVille": "Moscou",
+        "codePays": "RU",
+        "nomPays": "Russian Federation"
+    },
+    {
+        "id": 111,
+        "codePostalVille": "187015",
+        "nomVille": "Saint-Pétersbourg",
+        "codePays": "RU",
+        "nomPays": "Russian Federation"
+    },
+    {
+        "id": 120,
+        "codePostalVille": "WC1B",
+        "nomVille": "London",
+        "codePays": "GB",
+        "nomPays": "United Kingdom"
+    },
+    {
+        "id": 121,
+        "codePostalVille": "L73",
+        "nomVille": "Liverpool",
+        "codePays": "GB",
+        "nomPays": "United Kingdom"
+    },
+    {
+        "id": 130,
+        "codePostalVille": "1058",
+        "nomVille": "Amsterdam",
+        "codePays": "NL",
+        "nomPays": "Netherlands"
+    },
+    {
+        "id": 140,
+        "codePostalVille": "10115",
+        "nomVille": "Berlin",
+        "codePays": "DE",
+        "nomPays": "Germany"
+    },
+    {
+        "id": 150,
+        "codePostalVille": "00042",
+        "nomVille": "Rome",
+        "codePays": "IT",
+        "nomPays": "Italy"
+    },
+    {
+        "id": 160,
+        "codePostalVille": "28001",
+        "nomVille": "Madrid",
+        "codePays": "ES",
+        "nomPays": "Spain"
+    },
+    {
+        "id": 170,
+        "codePostalVille": "08001",
+        "nomVille": "Barcelone",
+        "codePays": "ES",
+        "nomPays": "Spain"
+    },
+    {
+        "id": 180,
+        "codePostalVille": "1201",
+        "nomVille": "Genève",
+        "codePays": "CH",
+        "nomPays": "Switzerland"
+    }
+]

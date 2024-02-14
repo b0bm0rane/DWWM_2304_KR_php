@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "city_zipcode": "75000",
+        "city_name": "Paris",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 2,
+        "city_zipcode": "59000",
+        "city_name": "Lille",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 3,
+        "city_zipcode": "68100",
+        "city_name": "Mulhouse",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 4,
+        "city_zipcode": "31000",
+        "city_name": "Toulouse",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 5,
+        "city_zipcode": "69000",
+        "city_name": "Lyon",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 6,
+        "city_zipcode": "13000",
+        "city_name": "Marseille",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 7,
+        "city_zipcode": "67000",
+        "city_name": "Strasbourg",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 8,
+        "city_zipcode": "34000",
+        "city_name": "Montpellier",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 9,
+        "city_zipcode": "44000",
+        "city_name": "Nantes",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 10,
+        "city_zipcode": "29200",
+        "city_name": "Brest",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 11,
+        "city_zipcode": "45000",
+        "city_name": "Orléans",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 12,
+        "city_zipcode": "51100",
+        "city_name": "Reims",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 13,
+        "city_zipcode": "83000",
+        "city_name": "Toulon",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 14,
+        "city_zipcode": "06100",
+        "city_name": "Nice",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 15,
+        "city_zipcode": "33800",
+        "city_name": "Bordeaux",
+        "country_code": "FR",
+        "country_name": "France"
+    },
+    {
+        "id": 51,
+        "city_zipcode": "1000",
+        "city_name": "Bruxelles",
+        "country_code": "BE",
+        "country_name": "Belgium"
+    },
+    {
+        "id": 52,
+        "city_zipcode": "5004",
+        "city_name": "Namur",
+        "country_code": "BE",
+        "country_name": "Belgium"
+    },
+    {
+        "id": 53,
+        "city_zipcode": "8200",
+        "city_name": "Brugges",
+        "country_code": "BE",
+        "country_name": "Belgium"
+    },
+    {
+        "id": 100,
+        "city_zipcode": "90001",
+        "city_name": "Los Angeles",
+        "country_code": "US",
+        "country_name": "United States"
+    },
+    {
+        "id": 101,
+        "city_zipcode": "20001",
+        "city_name": "Washington",
+        "country_code": "US",
+        "country_name": "United States"
+    },
+    {
+        "id": 102,
+        "city_zipcode": "10001",
+        "city_name": "New-York",
+        "country_code": "US",
+        "country_name": "United States"
+    },
+    {
+        "id": 103,
+        "city_zipcode": "02110",
+        "city_name": "Boston",
+        "country_code": "US",
+        "country_name": "United States"
+    },
+    {
+        "id": 110,
+        "city_zipcode": "102301",
+        "city_name": "Moscou",
+        "country_code": "RU",
+        "country_name": "Russian Federation"
+    },
+    {
+        "id": 111,
+        "city_zipcode": "187015",
+        "city_name": "Saint-Pétersbourg",
+        "country_code": "RU",
+        "country_name": "Russian Federation"
+    },
+    {
+        "id": 120,
+        "city_zipcode": "WC1B",
+        "city_name": "London",
+        "country_code": "GB",
+        "country_name": "United Kingdom"
+    },
+    {
+        "id": 121,
+        "city_zipcode": "L73",
+        "city_name": "Liverpool",
+        "country_code": "GB",
+        "country_name": "United Kingdom"
+    },
+    {
+        "id": 130,
+        "city_zipcode": "1058",
+        "city_name": "Amsterdam",
+        "country_code": "NL",
+        "country_name": "Netherlands"
+    },
+    {
+        "id": 140,
+        "city_zipcode": "10115",
+        "city_name": "Berlin",
+        "country_code": "DE",
+        "country_name": "Germany"
+    },
+    {
+        "id": 150,
+        "city_zipcode": "00042",
+        "city_name": "Rome",
+        "country_code": "IT",
+        "country_name": "Italy"
+    },
+    {
+        "id": 160,
+        "city_zipcode": "28001",
+        "city_name": "Madrid",
+        "country_code": "ES",
+        "country_name": "Spain"
+    },
+    {
+        "id": 170,
+        "city_zipcode": "08001",
+        "city_name": "Barcelone",
+        "country_code": "ES",
+        "country_name": "Spain"
+    },
+    {
+        "id": 180,
+        "city_zipcode": "1201",
+        "city_name": "Genève",
+        "country_code": "CH",
+        "country_name": "Switzerland"
+    }
+]
