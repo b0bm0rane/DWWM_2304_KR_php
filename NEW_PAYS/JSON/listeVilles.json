@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "codePostalVille": "75000",
+        "nomVille": "Paris"
+    },
+    {
+        "id": 2,
+        "codePostalVille": "59000",
+        "nomVille": "Lille"
+    },
+    {
+        "id": 3,
+        "codePostalVille": "68100",
+        "nomVille": "Mulhouse"
+    },
+    {
+        "id": 4,
+        "codePostalVille": "31000",
+        "nomVille": "Toulouse"
+    },
+    {
+        "id": 5,
+        "codePostalVille": "69000",
+        "nomVille": "Lyon"
+    },
+    {
+        "id": 6,
+        "codePostalVille": "13000",
+        "nomVille": "Marseille"
+    },
+    {
+        "id": 7,
+        "codePostalVille": "67000",
+        "nomVille": "Strasbourg"
+    },
+    {
+        "id": 8,
+        "codePostalVille": "34000",
+        "nomVille": "Montpellier"
+    },
+    {
+        "id": 9,
+        "codePostalVille": "44000",
+        "nomVille": "Nantes"
+    },
+    {
+        "id": 10,
+        "codePostalVille": "29200",
+        "nomVille": "Brest"
+    },
+    {
+        "id": 11,
+        "codePostalVille": "45000",
+        "nomVille": "Orléans"
+    },
+    {
+        "id": 12,
+        "codePostalVille": "51100",
+        "nomVille": "Reims"
+    },
+    {
+        "id": 13,
+        "codePostalVille": "83000",
+        "nomVille": "Toulon"
+    },
+    {
+        "id": 14,
+        "codePostalVille": "06100",
+        "nomVille": "Nice"
+    },
+    {
+        "id": 15,
+        "codePostalVille": "33800",
+        "nomVille": "Bordeaux"
+    },
+    {
+        "id": 51,
+        "codePostalVille": "1000",
+        "nomVille": "Bruxelles"
+    },
+    {
+        "id": 52,
+        "codePostalVille": "5004",
+        "nomVille": "Namur"
+    },
+    {
+        "id": 53,
+        "codePostalVille": "8200",
+        "nomVille": "Brugges"
+    },
+    {
+        "id": 100,
+        "codePostalVille": "90001",
+        "nomVille": "Los Angeles"
+    },
+    {
+        "id": 101,
+        "codePostalVille": "20001",
+        "nomVille": "Washington"
+    },
+    {
+        "id": 102,
+        "codePostalVille": "10001",
+        "nomVille": "New-York"
+    },
+    {
+        "id": 103,
+        "codePostalVille": "02110",
+        "nomVille": "Boston"
+    },
+    {
+        "id": 110,
+        "codePostalVille": "102301",
+        "nomVille": "Moscou"
+    },
+    {
+        "id": 111,
+        "codePostalVille": "187015",
+        "nomVille": "Saint-Pétersbourg"
+    },
+    {
+        "id": 120,
+        "codePostalVille": "WC1B",
+        "nomVille": "London"
+    },
+    {
+        "id": 121,
+        "codePostalVille": "L73",
+        "nomVille": "Liverpool"
+    },
+    {
+        "id": 130,
+        "codePostalVille": "1058",
+        "nomVille": "Amsterdam"
+    },
+    {
+        "id": 140,
+        "codePostalVille": "10115",
+        "nomVille": "Berlin"
+    },
+    {
+        "id": 150,
+        "codePostalVille": "00042",
+        "nomVille": "Rome"
+    },
+    {
+        "id": 160,
+        "codePostalVille": "28001",
+        "nomVille": "Madrid"
+    },
+    {
+        "id": 170,
+        "codePostalVille": "08001",
+        "nomVille": "Barcelone"
+    },
+    {
+        "id": 180,
+        "codePostalVille": "1201",
+        "nomVille": "Genève"
+    }
+]

@@ -15,17 +15,15 @@ class Ville
     #[ORM\Column]
     private ?int $id = null;
 
-    #[ORM\Column(length: 6, options: ["fixed" => true])]
+    #[ORM\Column(length: 8, options: ["fixed" => true])]
     private ?string $codePostalVille = null;
 
     #[ORM\Column(length: 255)]
     private ?string $nomVille = null;
 
-    #[ORM\Column(length: 2, options: ["fixed" => true])]
-    private ?string $codePays = null;
-
-    #[ORM\Column(length: 255)]
-    private ?string $nomPays = null;
+    #[ORM\ManyToOne(inversedBy: 'villes')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Pays $idPays = null;
 
     public function getId(): ?int
     {
@@ -56,26 +54,14 @@ class Ville
         return $this;
     }
 
-    public function getCodePays(): ?string
+    public function getIdPays(): ?Pays
     {
-        return $this->codePays;
+        return $this->idPays;
     }
 
-    public function setCodePays(string $codePays): static
+    public function setIdPays(?Pays $idPays): static
     {
-        $this->codePays = $codePays;
-
-        return $this;
-    }
-
-    public function getNomPays(): ?string
-    {
-        return $this->nomPays;
-    }
-
-    public function setNomPays(string $nomPays): static
-    {
-        $this->nomPays = $nomPays;
+        $this->idPays = $idPays;
 
         return $this;
     }
