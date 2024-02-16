@@ -1,0 +1,9 @@
+header{
+    background-color: black;
+    background-image: url("./banner.png");
+    height: 286px;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+}
