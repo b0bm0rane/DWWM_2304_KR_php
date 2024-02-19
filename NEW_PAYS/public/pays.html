@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pays & Villes</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" type="module"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
+
+
 </head>
-<body>
+<body id="app">
     <header>
         <h1>Pays</h1>
     </header>
@@ -20,8 +23,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td></td>
+                <tr v-for="pays of listePays">
+                    <td>{{ pays.codePays }}</td>
+                    <td>{{ pays.nomPays }}</td>
                 </tr>
             </tbody>
         </table>

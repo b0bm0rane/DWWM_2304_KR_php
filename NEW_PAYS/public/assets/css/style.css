@@ -1,9 +1,19 @@
-header{
+body{
     background-color: black;
+}
+
+header{
     background-image: url("./banner.png");
     height: 286px;
 }
 h1{
     color: white;
     margin-left: 20px;
+}
+
+table{
+    background-color: antiquewhite;
+    margin: auto;
+    width: 500px;
+    text-align: center;
 }
