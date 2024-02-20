@@ -1,7 +1,7 @@
 import {Pays} from "./Pays.js";
 
-const paysUrl = 'http://localhost:3000/api/payss';
-// const paysUrl = '.../JSON/listePays.json';
+// const paysUrl = 'http://localhost:3000/api/payss';
+const paysUrl = "...\JSON\listeVilles.json";
 
 const app = {
     data() {
@@ -12,11 +12,14 @@ const app = {
     async mounted() {
         let rep = await fetch(paysUrl);
         let repForm = await rep.json();
+
         console.log(repForm);
+        
         for (let pays of repForm){
             let c = new Pays(pays);
             this.listePays.push(c);
         }
+        
         console.log(this.listePays);
     },
     computed: {
