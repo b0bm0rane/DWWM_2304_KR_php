@@ -12,8 +12,16 @@ h1{
 }
 
 table{
-    background-color: antiquewhite;
+    background-color: green;
+    border: 3px solid darkgreen;
     margin: auto;
-    width: 500px;
+    margin-top: 20px;
+    width: 65%;
     text-align: center;
+    color: white;
+}
+
+button{
+    background-color: green;
+    color: lightgreen;
 }
