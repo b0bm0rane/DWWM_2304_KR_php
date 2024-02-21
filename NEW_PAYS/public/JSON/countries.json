@@ -1,0 +1,998 @@
+[
+    {
+        "codePays": "AD",
+        "nomPays": "Andorra"
+    },
+    {
+        "codePays": "AE",
+        "nomPays": "United Arab Emirates"
+    },
+    {
+        "codePays": "AF",
+        "nomPays": "Afghanistan"
+    },
+    {
+        "codePays": "AG",
+        "nomPays": "Antigua and Barbuda"
+    },
+    {
+        "codePays": "AI",
+        "nomPays": "Anguilla"
+    },
+    {
+        "codePays": "AL",
+        "nomPays": "Albania"
+    },
+    {
+        "codePays": "AM",
+        "nomPays": "Armenia"
+    },
+    {
+        "codePays": "AO",
+        "nomPays": "Angola"
+    },
+    {
+        "codePays": "AQ",
+        "nomPays": "Antarctica"
+    },
+    {
+        "codePays": "AR",
+        "nomPays": "Argentina"
+    },
+    {
+        "codePays": "AS",
+        "nomPays": "American Samoa"
+    },
+    {
+        "codePays": "AT",
+        "nomPays": "Austria"
+    },
+    {
+        "codePays": "AU",
+        "nomPays": "Australia"
+    },
+    {
+        "codePays": "AW",
+        "nomPays": "Aruba"
+    },
+    {
+        "codePays": "AX",
+        "nomPays": "Åland Islands"
+    },
+    {
+        "codePays": "AZ",
+        "nomPays": "Azerbaijan"
+    },
+    {
+        "codePays": "BA",
+        "nomPays": "Bosnia and Herzegovina"
+    },
+    {
+        "codePays": "BB",
+        "nomPays": "Barbados"
+    },
+    {
+        "codePays": "BD",
+        "nomPays": "Bangladesh"
+    },
+    {
+        "codePays": "BE",
+        "nomPays": "Belgium"
+    },
+    {
+        "codePays": "BF",
+        "nomPays": "Burkina Faso"
+    },
+    {
+        "codePays": "BG",
+        "nomPays": "Bulgaria"
+    },
+    {
+        "codePays": "BH",
+        "nomPays": "Bahrain"
+    },
+    {
+        "codePays": "BI",
+        "nomPays": "Burundi"
+    },
+    {
+        "codePays": "BJ",
+        "nomPays": "Benin"
+    },
+    {
+        "codePays": "BL",
+        "nomPays": "Saint Barthélemy"
+    },
+    {
+        "codePays": "BM",
+        "nomPays": "Bermuda"
+    },
+    {
+        "codePays": "BN",
+        "nomPays": "Brunei Darussalam"
+    },
+    {
+        "codePays": "BO",
+        "nomPays": "Bolivia, Plurinational State of"
+    },
+    {
+        "codePays": "BQ",
+        "nomPays": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+        "codePays": "BR",
+        "nomPays": "Brazil"
+    },
+    {
+        "codePays": "BS",
+        "nomPays": "Bahamas"
+    },
+    {
+        "codePays": "BT",
+        "nomPays": "Bhutan"
+    },
+    {
+        "codePays": "BV",
+        "nomPays": "Bouvet Island"
+    },
+    {
+        "codePays": "BW",
+        "nomPays": "Botswana"
+    },
+    {
+        "codePays": "BY",
+        "nomPays": "Belarus"
+    },
+    {
+        "codePays": "BZ",
+        "nomPays": "Belize"
+    },
+    {
+        "codePays": "CA",
+        "nomPays": "Canada"
+    },
+    {
+        "codePays": "CC",
+        "nomPays": "Cocos (Keeling) Islands"
+    },
+    {
+        "codePays": "CD",
+        "nomPays": "Congo, the Democratic Republic of the"
+    },
+    {
+        "codePays": "CF",
+        "nomPays": "Central African Republic"
+    },
+    {
+        "codePays": "CG",
+        "nomPays": "Congo"
+    },
+    {
+        "codePays": "CH",
+        "nomPays": "Switzerland"
+    },
+    {
+        "codePays": "CI",
+        "nomPays": "Côte d'Ivoire"
+    },
+    {
+        "codePays": "CK",
+        "nomPays": "Cook Islands"
+    },
+    {
+        "codePays": "CL",
+        "nomPays": "Chile"
+    },
+    {
+        "codePays": "CM",
+        "nomPays": "Cameroon"
+    },
+    {
+        "codePays": "CN",
+        "nomPays": "China"
+    },
+    {
+        "codePays": "CO",
+        "nomPays": "Colombia"
+    },
+    {
+        "codePays": "CR",
+        "nomPays": "Costa Rica"
+    },
+    {
+        "codePays": "CU",
+        "nomPays": "Cuba"
+    },
+    {
+        "codePays": "CV",
+        "nomPays": "Cape Verde"
+    },
+    {
+        "codePays": "CW",
+        "nomPays": "Curaçao"
+    },
+    {
+        "codePays": "CX",
+        "nomPays": "Christmas Island"
+    },
+    {
+        "codePays": "CY",
+        "nomPays": "Cyprus"
+    },
+    {
+        "codePays": "CZ",
+        "nomPays": "Czech Republic"
+    },
+    {
+        "codePays": "DE",
+        "nomPays": "Germany"
+    },
+    {
+        "codePays": "DJ",
+        "nomPays": "Djibouti"
+    },
+    {
+        "codePays": "DK",
+        "nomPays": "Denmark"
+    },
+    {
+        "codePays": "DM",
+        "nomPays": "Dominica"
+    },
+    {
+        "codePays": "DO",
+        "nomPays": "Dominican Republic"
+    },
+    {
+        "codePays": "DZ",
+        "nomPays": "Algeria"
+    },
+    {
+        "codePays": "EC",
+        "nomPays": "Ecuador"
+    },
+    {
+        "codePays": "EE",
+        "nomPays": "Estonia"
+    },
+    {
+        "codePays": "EG",
+        "nomPays": "Egypt"
+    },
+    {
+        "codePays": "EH",
+        "nomPays": "Western Sahara"
+    },
+    {
+        "codePays": "ER",
+        "nomPays": "Eritrea"
+    },
+    {
+        "codePays": "ES",
+        "nomPays": "Spain"
+    },
+    {
+        "codePays": "ET",
+        "nomPays": "Ethiopia"
+    },
+    {
+        "codePays": "FI",
+        "nomPays": "Finland"
+    },
+    {
+        "codePays": "FJ",
+        "nomPays": "Fiji"
+    },
+    {
+        "codePays": "FK",
+        "nomPays": "Falkland Islands (Malvinas)"
+    },
+    {
+        "codePays": "FM",
+        "nomPays": "Micronesia, Federated States of"
+    },
+    {
+        "codePays": "FO",
+        "nomPays": "Faroe Islands"
+    },
+    {
+        "codePays": "FR",
+        "nomPays": "France"
+    },
+    {
+        "codePays": "GA",
+        "nomPays": "Gabon"
+    },
+    {
+        "codePays": "GB",
+        "nomPays": "United Kingdom"
+    },
+    {
+        "codePays": "GD",
+        "nomPays": "Grenada"
+    },
+    {
+        "codePays": "GE",
+        "nomPays": "Georgia"
+    },
+    {
+        "codePays": "GF",
+        "nomPays": "French Guiana"
+    },
+    {
+        "codePays": "GG",
+        "nomPays": "Guernsey"
+    },
+    {
+        "codePays": "GH",
+        "nomPays": "Ghana"
+    },
+    {
+        "codePays": "GI",
+        "nomPays": "Gibraltar"
+    },
+    {
+        "codePays": "GL",
+        "nomPays": "Greenland"
+    },
+    {
+        "codePays": "GM",
+        "nomPays": "Gambia"
+    },
+    {
+        "codePays": "GN",
+        "nomPays": "Guinea"
+    },
+    {
+        "codePays": "GP",
+        "nomPays": "Guadeloupe"
+    },
+    {
+        "codePays": "GQ",
+        "nomPays": "Equatorial Guinea"
+    },
+    {
+        "codePays": "GR",
+        "nomPays": "Greece"
+    },
+    {
+        "codePays": "GS",
+        "nomPays": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "codePays": "GT",
+        "nomPays": "Guatemala"
+    },
+    {
+        "codePays": "GU",
+        "nomPays": "Guam"
+    },
+    {
+        "codePays": "GW",
+        "nomPays": "Guinea-Bissau"
+    },
+    {
+        "codePays": "GY",
+        "nomPays": "Guyana"
+    },
+    {
+        "codePays": "HK",
+        "nomPays": "Hong Kong"
+    },
+    {
+        "codePays": "HM",
+        "nomPays": "Heard Island and McDonald Islands"
+    },
+    {
+        "codePays": "HN",
+        "nomPays": "Honduras"
+    },
+    {
+        "codePays": "HR",
+        "nomPays": "Croatia"
+    },
+    {
+        "codePays": "HT",
+        "nomPays": "Haiti"
+    },
+    {
+        "codePays": "HU",
+        "nomPays": "Hungary"
+    },
+    {
+        "codePays": "ID",
+        "nomPays": "Indonesia"
+    },
+    {
+        "codePays": "IE",
+        "nomPays": "Ireland"
+    },
+    {
+        "codePays": "IL",
+        "nomPays": "Israel"
+    },
+    {
+        "codePays": "IM",
+        "nomPays": "Isle of Man"
+    },
+    {
+        "codePays": "IN",
+        "nomPays": "India"
+    },
+    {
+        "codePays": "IO",
+        "nomPays": "British Indian Ocean Territory"
+    },
+    {
+        "codePays": "IQ",
+        "nomPays": "Iraq"
+    },
+    {
+        "codePays": "IR",
+        "nomPays": "Iran, Islamic Republic of"
+    },
+    {
+        "codePays": "IS",
+        "nomPays": "Iceland"
+    },
+    {
+        "codePays": "IT",
+        "nomPays": "Italy"
+    },
+    {
+        "codePays": "JE",
+        "nomPays": "Jersey"
+    },
+    {
+        "codePays": "JM",
+        "nomPays": "Jamaica"
+    },
+    {
+        "codePays": "JO",
+        "nomPays": "Jordan"
+    },
+    {
+        "codePays": "JP",
+        "nomPays": "Japan"
+    },
+    {
+        "codePays": "KE",
+        "nomPays": "Kenya"
+    },
+    {
+        "codePays": "KG",
+        "nomPays": "Kyrgyzstan"
+    },
+    {
+        "codePays": "KH",
+        "nomPays": "Cambodia"
+    },
+    {
+        "codePays": "KI",
+        "nomPays": "Kiribati"
+    },
+    {
+        "codePays": "KM",
+        "nomPays": "Comoros"
+    },
+    {
+        "codePays": "KN",
+        "nomPays": "Saint Kitts and Nevis"
+    },
+    {
+        "codePays": "KP",
+        "nomPays": "Korea, Democratic People's Republic of"
+    },
+    {
+        "codePays": "KR",
+        "nomPays": "Korea, Republic of"
+    },
+    {
+        "codePays": "KW",
+        "nomPays": "Kuwait"
+    },
+    {
+        "codePays": "KY",
+        "nomPays": "Cayman Islands"
+    },
+    {
+        "codePays": "KZ",
+        "nomPays": "Kazakhstan"
+    },
+    {
+        "codePays": "LA",
+        "nomPays": "Lao People's Democratic Republic"
+    },
+    {
+        "codePays": "LB",
+        "nomPays": "Lebanon"
+    },
+    {
+        "codePays": "LC",
+        "nomPays": "Saint Lucia"
+    },
+    {
+        "codePays": "LI",
+        "nomPays": "Liechtenstein"
+    },
+    {
+        "codePays": "LK",
+        "nomPays": "Sri Lanka"
+    },
+    {
+        "codePays": "LR",
+        "nomPays": "Liberia"
+    },
+    {
+        "codePays": "LS",
+        "nomPays": "Lesotho"
+    },
+    {
+        "codePays": "LT",
+        "nomPays": "Lithuania"
+    },
+    {
+        "codePays": "LU",
+        "nomPays": "Luxembourg"
+    },
+    {
+        "codePays": "LV",
+        "nomPays": "Latvia"
+    },
+    {
+        "codePays": "LY",
+        "nomPays": "Libya"
+    },
+    {
+        "codePays": "MA",
+        "nomPays": "Morocco"
+    },
+    {
+        "codePays": "MC",
+        "nomPays": "Monaco"
+    },
+    {
+        "codePays": "MD",
+        "nomPays": "Moldova, Republic of"
+    },
+    {
+        "codePays": "ME",
+        "nomPays": "Montenegro"
+    },
+    {
+        "codePays": "MF",
+        "nomPays": "Saint Martin (French part)"
+    },
+    {
+        "codePays": "MG",
+        "nomPays": "Madagascar"
+    },
+    {
+        "codePays": "MH",
+        "nomPays": "Marshall Islands"
+    },
+    {
+        "codePays": "MK",
+        "nomPays": "Macedonia, the Former Yugoslav Republic of"
+    },
+    {
+        "codePays": "ML",
+        "nomPays": "Mali"
+    },
+    {
+        "codePays": "MM",
+        "nomPays": "Myanmar"
+    },
+    {
+        "codePays": "MN",
+        "nomPays": "Mongolia"
+    },
+    {
+        "codePays": "MO",
+        "nomPays": "Macao"
+    },
+    {
+        "codePays": "MP",
+        "nomPays": "Northern Mariana Islands"
+    },
+    {
+        "codePays": "MQ",
+        "nomPays": "Martinique"
+    },
+    {
+        "codePays": "MR",
+        "nomPays": "Mauritania"
+    },
+    {
+        "codePays": "MS",
+        "nomPays": "Montserrat"
+    },
+    {
+        "codePays": "MT",
+        "nomPays": "Malta"
+    },
+    {
+        "codePays": "MU",
+        "nomPays": "Mauritius"
+    },
+    {
+        "codePays": "MV",
+        "nomPays": "Maldives"
+    },
+    {
+        "codePays": "MW",
+        "nomPays": "Malawi"
+    },
+    {
+        "codePays": "MX",
+        "nomPays": "Mexico"
+    },
+    {
+        "codePays": "MY",
+        "nomPays": "Malaysia"
+    },
+    {
+        "codePays": "MZ",
+        "nomPays": "Mozambique"
+    },
+    {
+        "codePays": "NA",
+        "nomPays": "Namibia"
+    },
+    {
+        "codePays": "NC",
+        "nomPays": "New Caledonia"
+    },
+    {
+        "codePays": "NE",
+        "nomPays": "Niger"
+    },
+    {
+        "codePays": "NF",
+        "nomPays": "Norfolk Island"
+    },
+    {
+        "codePays": "NG",
+        "nomPays": "Nigeria"
+    },
+    {
+        "codePays": "NI",
+        "nomPays": "Nicaragua"
+    },
+    {
+        "codePays": "NL",
+        "nomPays": "Netherlands"
+    },
+    {
+        "codePays": "NO",
+        "nomPays": "Norway"
+    },
+    {
+        "codePays": "NP",
+        "nomPays": "Nepal"
+    },
+    {
+        "codePays": "NR",
+        "nomPays": "Nauru"
+    },
+    {
+        "codePays": "NU",
+        "nomPays": "Niue"
+    },
+    {
+        "codePays": "NZ",
+        "nomPays": "New Zealand"
+    },
+    {
+        "codePays": "OM",
+        "nomPays": "Oman"
+    },
+    {
+        "codePays": "PA",
+        "nomPays": "Panama"
+    },
+    {
+        "codePays": "PE",
+        "nomPays": "Peru"
+    },
+    {
+        "codePays": "PF",
+        "nomPays": "French Polynesia"
+    },
+    {
+        "codePays": "PG",
+        "nomPays": "Papua New Guinea"
+    },
+    {
+        "codePays": "PH",
+        "nomPays": "Philippines"
+    },
+    {
+        "codePays": "PK",
+        "nomPays": "Pakistan"
+    },
+    {
+        "codePays": "PL",
+        "nomPays": "Poland"
+    },
+    {
+        "codePays": "PM",
+        "nomPays": "Saint Pierre and Miquelon"
+    },
+    {
+        "codePays": "PN",
+        "nomPays": "Pitcairn"
+    },
+    {
+        "codePays": "PR",
+        "nomPays": "Puerto Rico"
+    },
+    {
+        "codePays": "PS",
+        "nomPays": "Palestine, State of"
+    },
+    {
+        "codePays": "PT",
+        "nomPays": "Portugal"
+    },
+    {
+        "codePays": "PW",
+        "nomPays": "Palau"
+    },
+    {
+        "codePays": "PY",
+        "nomPays": "Paraguay"
+    },
+    {
+        "codePays": "QA",
+        "nomPays": "Qatar"
+    },
+    {
+        "codePays": "RE",
+        "nomPays": "Réunion"
+    },
+    {
+        "codePays": "RO",
+        "nomPays": "Romania"
+    },
+    {
+        "codePays": "RS",
+        "nomPays": "Serbia"
+    },
+    {
+        "codePays": "RU",
+        "nomPays": "Russian Federation"
+    },
+    {
+        "codePays": "RW",
+        "nomPays": "Rwanda"
+    },
+    {
+        "codePays": "SA",
+        "nomPays": "Saudi Arabia"
+    },
+    {
+        "codePays": "SB",
+        "nomPays": "Solomon Islands"
+    },
+    {
+        "codePays": "SC",
+        "nomPays": "Seychelles"
+    },
+    {
+        "codePays": "SD",
+        "nomPays": "Sudan"
+    },
+    {
+        "codePays": "SE",
+        "nomPays": "Sweden"
+    },
+    {
+        "codePays": "SG",
+        "nomPays": "Singapore"
+    },
+    {
+        "codePays": "SH",
+        "nomPays": "Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+        "codePays": "SI",
+        "nomPays": "Slovenia"
+    },
+    {
+        "codePays": "SJ",
+        "nomPays": "Svalbard and Jan Mayen"
+    },
+    {
+        "codePays": "SK",
+        "nomPays": "Slovakia"
+    },
+    {
+        "codePays": "SL",
+        "nomPays": "Sierra Leone"
+    },
+    {
+        "codePays": "SM",
+        "nomPays": "San Marino"
+    },
+    {
+        "codePays": "SN",
+        "nomPays": "Senegal"
+    },
+    {
+        "codePays": "SO",
+        "nomPays": "Somalia"
+    },
+    {
+        "codePays": "SR",
+        "nomPays": "Suriname"
+    },
+    {
+        "codePays": "SS",
+        "nomPays": "South Sudan"
+    },
+    {
+        "codePays": "ST",
+        "nomPays": "Sao Tome and Principe"
+    },
+    {
+        "codePays": "SV",
+        "nomPays": "El Salvador"
+    },
+    {
+        "codePays": "SX",
+        "nomPays": "Sint Maarten (Dutch part)"
+    },
+    {
+        "codePays": "SY",
+        "nomPays": "Syrian Arab Republic"
+    },
+    {
+        "codePays": "SZ",
+        "nomPays": "Swaziland"
+    },
+    {
+        "codePays": "TC",
+        "nomPays": "Turks and Caicos Islands"
+    },
+    {
+        "codePays": "TD",
+        "nomPays": "Chad"
+    },
+    {
+        "codePays": "TF",
+        "nomPays": "French Southern Territories"
+    },
+    {
+        "codePays": "TG",
+        "nomPays": "Togo"
+    },
+    {
+        "codePays": "TH",
+        "nomPays": "Thailand"
+    },
+    {
+        "codePays": "TJ",
+        "nomPays": "Tajikistan"
+    },
+    {
+        "codePays": "TK",
+        "nomPays": "Tokelau"
+    },
+    {
+        "codePays": "TL",
+        "nomPays": "Timor-Leste"
+    },
+    {
+        "codePays": "TM",
+        "nomPays": "Turkmenistan"
+    },
+    {
+        "codePays": "TN",
+        "nomPays": "Tunisia"
+    },
+    {
+        "codePays": "TO",
+        "nomPays": "Tonga"
+    },
+    {
+        "codePays": "TR",
+        "nomPays": "Turkey"
+    },
+    {
+        "codePays": "TT",
+        "nomPays": "Trinidad and Tobago"
+    },
+    {
+        "codePays": "TV",
+        "nomPays": "Tuvalu"
+    },
+    {
+        "codePays": "TW",
+        "nomPays": "Taiwan, Province of China"
+    },
+    {
+        "codePays": "TZ",
+        "nomPays": "Tanzania, United Republic of"
+    },
+    {
+        "codePays": "UA",
+        "nomPays": "Ukraine"
+    },
+    {
+        "codePays": "UG",
+        "nomPays": "Uganda"
+    },
+    {
+        "codePays": "UM",
+        "nomPays": "United States Minor Outlying Islands"
+    },
+    {
+        "codePays": "US",
+        "nomPays": "United States"
+    },
+    {
+        "codePays": "UY",
+        "nomPays": "Uruguay"
+    },
+    {
+        "codePays": "UZ",
+        "nomPays": "Uzbekistan"
+    },
+    {
+        "codePays": "VA",
+        "nomPays": "Holy See (Vatican City State)"
+    },
+    {
+        "codePays": "VC",
+        "nomPays": "Saint Vincent and the Grenadines"
+    },
+    {
+        "codePays": "VE",
+        "nomPays": "Venezuela, Bolivarian Republic of"
+    },
+    {
+        "codePays": "VG",
+        "nomPays": "Virgin Islands, British"
+    },
+    {
+        "codePays": "VI",
+        "nomPays": "Virgin Islands, U.S."
+    },
+    {
+        "codePays": "VN",
+        "nomPays": "Viet Nam"
+    },
+    {
+        "codePays": "VU",
+        "nomPays": "Vanuatu"
+    },
+    {
+        "codePays": "WF",
+        "nomPays": "Wallis and Futuna"
+    },
+    {
+        "codePays": "WS",
+        "nomPays": "Samoa"
+    },
+    {
+        "codePays": "YE",
+        "nomPays": "Yemen"
+    },
+    {
+        "codePays": "YT",
+        "nomPays": "Mayotte"
+    },
+    {
+        "codePays": "ZA",
+        "nomPays": "South Africa"
+    },
+    {
+        "codePays": "ZM",
+        "nomPays": "Zambia"
+    },
+    {
+        "codePays": "ZW",
+        "nomPays": "Zimbabwe"
+    }
+]

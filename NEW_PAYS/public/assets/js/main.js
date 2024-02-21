@@ -1,7 +1,7 @@
 import {Pays} from "./Pays.js";
 
 // const paysUrl = 'http://localhost:3000/api/payss';
-const paysUrl = "...\JSON\listeVilles.json";
+const paysUrl = "./JSON/countries.json";
 
 const app = {
     data() {
